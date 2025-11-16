@@ -23,7 +23,7 @@
             bottom: 0;
             width: 50%;
             height: 4px;
-            background-color: #4f46e5; /* green-600 */
+            background-color: #4f46e5; /* indigo-600 */
             border-radius: 9999px;
         }
         .card-shadow {
@@ -34,7 +34,7 @@
 <body class="bg-gray-50 text-gray-800 antialiased">
 
     <!-- Header & Hero Section -->
-    <header class="bg-green-600 text-white shadow-lg">
+    <header class="bg-indigo-600 text-white shadow-lg">
         <div class="max-w-6xl mx-auto px-4 py-8 md:py-12">
             <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
                 Alan Fernandes
@@ -57,21 +57,30 @@
                 I am an enthusiastic and results-driven first-year Computer Engineering student at <b>Fr. Conceicao Rodrigues College of Engineering (FCRCE), Bandra West</b>. My academic journey has begun with a strong focus on <b>C programming fundamentals, Data Structures, and the mathematical principles underlying computing.</b> I am passionate about utilizing code to solve practical problems and am actively seeking opportunities to apply theoretical knowledge through early projects and extracurricular engagement in technology.
             </p>
             <div class="mt-4 flex flex-wrap gap-4 text-sm font-medium">
-                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">Problem Solver</span>
-                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">Quick Learner</span>
-                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full">Team Player</span>
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">Problem Solver</span>
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">Quick Learner</span>
+                <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full">Team Player</span>
             </div>
         </section>
 
         <!-- Education -->
         <section id="education">
             <h2 class="text-2xl font-bold text-gray-900 mb-6 section-heading">Education</h2>
-            <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-green-500">
-                <h3 class="text-xl font-semibold text-gray-800">FE Computer Engineering</h3>
-                <p class="text-lg text-gray-600">Fr. Conceicao Rodrigues College of Engineering (FCRCE), Bandra</p>
+            <div class="bg-white p-6 rounded-xl card-shadow border-l-4 border-indigo-500">
+                <h3 class="text-xl font-semibold text-gray-800">School</h3>
+                <ul class="list-disc list-inside text-sm mt-3 space-y-1 text-gray-600">
+                 <p class="text-lg text-gray-600">Holy Family High School, Andheri East</p>
+                  <h3 class="text-xl font-semibold text-gray-800">Junior College</h3>
+                  <ul class="list-disc list-inside text-sm mt-3 space-y-1 text-gray-600">
+                 <p class="text-lg text-gray-600">Shri GPM College, Andheri East</p>
+                 
+       <h3 class="text-xl font-semibold text-gray-800">Degree College</h3>
+                <ul class="list-disc list-inside text-sm mt-3 space-y-1 text-gray-600">
+                   
+                <p class="text-lg text-gray-600">Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra West</p>
                 <p class="text-sm text-gray-500 mt-1">Expected Graduation: 2029</p>
                 <ul class="list-disc list-inside text-sm mt-3 space-y-1 text-gray-600">
-                    <li>Current Focus: Structugreen Programming Approach (C).</li>
+                   
                     
                   
                 </ul>
@@ -89,9 +98,9 @@
                         Programming Languages
                     </h3>
                     <div class="space-y-2">
-                        <div class="flex justify-between font-medium"><span>C</span><span class="text-green-600">Foundational</span></div>
+                        <div class="flex justify-between font-medium"><span>C</span><span class="text-indigo-600">Foundational</span></div>
                         <div class="w-full bg-gray-200 rounded-full h-2">
-                            <div class="bg-green-600 h-2 rounded-full w-4/5"></div>
+                            <div class="bg-indigo-600 h-2 rounded-full w-4/5"></div>
                         </div>
 
                         
@@ -126,12 +135,12 @@
                 <p class="text-sm text-gray-400">Computer Engineering | FRCRCE</p>
             </div>
             <div class="flex space-x-6">
-                <a href="mailto:11079@crce.edu.in" class="text-green-400 hover:text-green-300 transition duration-300">
+                <a href="mailto:11079@crce.edu.in" class="text-indigo-400 hover:text-indigo-300 transition duration-300">
                     Email
                 </a>
                
                 </a>
-                <a href="https://github.com/thealanfernz" target="_blank" class="text-green-400 hover:text-green-300 transition duration-300">
+                <a href="https://github.com/thealanfernz" target="_blank" class="text-indigo-400 hover:text-indigo-300 transition duration-300">
                     GitHub
                 </a>
             </div>
