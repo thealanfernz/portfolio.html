@@ -129,8 +129,6 @@
                 <a href="mailto:11079@crce.edu.in" class="text-indigo-400 hover:text-indigo-300 transition duration-300">
                     Email
                 </a>
-               
-                </a>
                 <a href="https://github.com/thealanfernz" target="_blank" class="text-indigo-400 hover:text-indigo-300 transition duration-300">
                     GitHub
                 </a>
