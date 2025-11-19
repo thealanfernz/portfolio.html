@@ -685,7 +685,7 @@
         <div class="hero-content">
             <h1>Alan Fernandes</h1>
             <p class="college-name">Fr. Conceicao Rodrigues College of Engineering, Bandra West</p>
-            <p class="intro-text">First Year Engineering Student passionate about technology, and innovation. <b>Moulding Engineers who can build the future</b></p>
+            <p class="intro-text">First Year Computer Engineering Student passionate about technology, and innovation. <b>Moulding Engineers who can build the future</b></p>
             <a href="#contact" class="cta-button">Let's Connect →</a>
         </div>
         <div class="hero-image">
