@@ -767,7 +767,7 @@
             <div class="hobby-card">
                 <div class="hobby-icon">🎵</div>
                 <h3>Music</h3>
-                <p>Finding inspiration and relaxation through British Rock</p>
+                <p>Uncovering the music's essence.</p>
                 <a href="https://open.spotify.com/playlist/6998fTw1ge0X7f3KAzY6Vm?si=0wmr9YHyS2SWtKL5z1ufJQ&pi=Ft7nZWc0RC6IV">View Playlist</a>
 
             </div>
