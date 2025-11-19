@@ -767,8 +767,7 @@
             <div class="hobby-card">
                 <div class="hobby-icon">🎵</div>
                 <h3>Music</h3>
-                <p>Uncovering the music's essence.
-                Certified in Electronic Keyboard till Grade 3 </p>
+                <p>Uncovering the music's essence.</p>
                 <a href="https://open.spotify.com/playlist/6998fTw1ge0X7f3KAzY6Vm?si=0wmr9YHyS2SWtKL5z1ufJQ&pi=Ft7nZWc0RC6IV">View Playlist</a>
 
             </div>
