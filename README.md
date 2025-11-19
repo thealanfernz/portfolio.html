@@ -676,9 +676,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="social-icons">
-            <a href="#" aria-label="LinkedIn">in</a>
-            <a href="#" aria-label="GitHub">⚙</a>
-            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="https://github.com/thealanfernz" aria-label="GitHub">⚙</a>
         </div>
     </nav>
 
