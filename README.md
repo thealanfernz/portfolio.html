@@ -807,7 +807,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 Your Name. Built with passion and coffee ☕</p>
+        <p>&copy; Alan Fernandes. Built with passion and curiosity ⚙</p>
     </footer>
 
     <script>
