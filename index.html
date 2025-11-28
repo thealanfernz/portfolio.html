@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function(){
+      emailjs.init("irdGDOJ24sFgDavGb"); // Your public key
+  })();
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Circuit Board Background -->
+    <div class="circuit-bg">
+        <canvas id="circuitCanvas"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">⚡ Portfolio</div>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <!-- ========== MODIFIED: Added Certificates link ========== -->
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <div class="nav-actions">
+            <!-- Theme Toggle -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+                <span class="sun-icon">☀️</span>
+                <span class="moon-icon">🌙</span>
+            </button>
+            
+            <div class="social-icons">
+                <a href="https://github.com/thealanfernz" aria-label="GitHub">⚙</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Alan Fernandes</h1>
+            <p class="college-name">Fr. Conceicao Rodrigues College of Engineering, Bandra West</p>
+            <p class="intro-text">First Year Engineering Student passionate about technology, and innovation. <b>Moulding Engineers who can build the future</b></p>
+            <a href="#contact" class="cta-button">Let's Connect →</a>
+        </div>
+        <div class="hero-image">
+            <div class="profile-circle">
+                <img src="i/pfp.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h3>Technical Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-item">C Language</div>
+            <div class="skill-item">Basic Web Development</div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-me" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                Hello! I'm a passionate first-year engineering student at Fr. Conceicao Rodrigues College of Engineering, 
+                exploring the fascinating world of technology and innovation. My journey in engineering has just begun, 
+                but I'm already captivated by the endless possibilities that lie ahead.
+            </p>
+            <p>
+                I believe in learning by doing, and I'm constantly working on projects that challenge me to think 
+                creatively and solve real-world problems. Whether it's coding, or design, I approach 
+                every challenge with curiosity and determination.
+            </p>
+            <p>
+                Beyond academics, I'm eager to collaborate, innovate, and make a positive impact through technology.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <div class="education-timeline">
+            <div class="education-item">
+                <h3>Bachelor of Engineering</h3>
+                <p class="institution">Fr. Conceicao Rodrigues College of Engineering, Bandra West</p>
+                <p class="year">2025 - 2029 (Expected)</p>
+                <p>Currently pursuing my engineering degree with a focus on building strong fundamentals in 
+                mathematics, programming, and core engineering concepts.</p>
+            </div>
+            <div class="education-item">
+                <h3>Higher Secondary Education (12th Grade)</h3>
+                <p class="institution">Shri GPM College, Andheri East</p>
+                <p class="year">2024 - 2025</p>
+                <p>Completed with a focus on Science stream, developing analytical and problem-solving skills.</p>
+            </div>
+            <div class="education-item">
+                <h3>Secondary Education (10th Grade)</h3>
+                <p class="institution">Holy Family High School, Andheri East</p>
+                <p class="year">2022 - 2023</p>
+                <p>Built foundational knowledge in mathematics, science, and technology.</p>
+            </div>
+        </div>
+    </section>
+
+  <!-- Replace the entire Gallery Section in index.html with this: -->
+
+<section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <p class="gallery-subtitle">A collection of moments and memories</p>
+
+    <div class="gallery-slideshow">
+        <div class="slideshow-container" id="slideshowContainer">
+
+            <!-- Static slides with your images -->
+            <div class="slide active">
+                <img src="i/building1.jpg" alt="Building 1">
+            </div>
+            <div class="slide">
+                <img src="i/building2.jpg" alt="Building 2">
+            </div>
+            <div class="slide">
+                <img src="i/car.jpg" alt="Car">
+            </div>
+            <div class="slide">
+                <img src="i/fort.jpg" alt="Fort">
+            </div>
+            <div class="slide">
+                <img src="i/image.png" alt="Profile Picture">
+            </div>
+
+            <!-- Slideshow navigation -->
+            <button class="slideshow-nav slideshow-prev" id="slideshowPrev">‹</button>
+            <button class="slideshow-nav slideshow-next" id="slideshowNext">›</button>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects/Certificates Section -->
+    <section class="projects" id="projects">
+        <h2>Projects & Certificates</h2>
+        <p class="projects-subtitle">My achievements and completed projects</p>
+        
+
+        <div class="projects-grid" id="projectsGrid">
+             <img src="i/certificate 1_page-0001.jpg" alt="MATLAB" width="100%" height="100%" title="certificate">
+              <img src="i/certificate 2_page-0001.jpg" alt="MATLAB" width="100%" height="100%" title="certificate">
+               <img src="i/certificate 3_page-0001.jpg" alt="MATLAB" width="100%" height="100%" title="certificate">
+                <img src="i/certificate 4_page-0001.jpg" alt="MATLAB" width="100%" height="100%" title="certificate">
+        </div>
+
+        
+
+        
+    </section>
+
+    <!-- ========== NEW: Certificates & Achievements Section ========== -->
+    <section class="certificates" id="certificates">
+        <h2>Certificates & Achievements</h2>
+        <p class="certificates-subtitle">Recognition and accomplishments throughout my journey</p>
+        
+        <div class="certificates-upload">
+            <label for="newCertificateUpload" class="upload-btn">
+                🎓 Upload Certificates
+                <input type="file" id="newCertificateUpload" accept="image/*,.pdf" multiple hidden>
+            </label>
+        </div>
+
+        <div class="certificates-grid" id="certificatesGrid">
+            <!-- Certificate items will be dynamically added here -->
+        </div>
+
+        <div class="certificates-empty" id="certificatesEmpty">
+            <p>No certificates yet. Upload your achievements to showcase them!</p>
+        </div>
+    </section>
+
+    <!-- ========== MODIFIED: Enhanced Hobbies Section with Interactive Cards ========== -->
+    <section class="hobbies" id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <div class="hobby-icon">💻</div>
+                <h3>Coding</h3>
+                <p>Love solving programming challenges and building projects that bring ideas to life.</p>
+            </div>
+            <div class="hobby-card" id="readingCard">
+                <div class="hobby-icon">📚</div>
+                <h3>Reading</h3>
+                <p>Enthusiastic reader of Philosophy and Literature</p>
+            </div>
+            <div class="hobby-card" id="musicCard">
+                <div class="hobby-icon">🎵</div>
+                <h3>Music</h3>
+                <p>Finding inspiration and relaxation through British Rock</p>
+                <button class="cta-button" id="musicPopupBtn">View Music Collection</button>
+            </div>
+            <div class="hobby-card">
+                <div class="hobby-icon">🚴</div>
+                <h3>Fitness</h3>
+                <p>Spinning Miles, chasing sunrises, and fueled by excitement. Enthusiastic cyclist always ready for adventure!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch</h2>
+        <p class="contact-subtitle">Have a question or want to work together? Drop me a message!</p>
+        <div class="contact-container">
+            <form id="contactForm">
+    <div class="form-group">
+        <label>Your Name *</label>
+        <input type="text" id="name" name="user_name" required>
+    </div>
+
+    <div class="form-group">
+        <label>Email Address *</label>
+        <input type="email" id="email" name="user_email" required>
+    </div>
+
+    <div class="form-group">
+        <label>Message (Optional)</label>
+        <textarea id="message" name="message"></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+</form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Alan Fernandes. Built with passion and coffee ☕</p>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <span class="modal-close" id="modalClose">&times;</span>
+        <button class="modal-nav modal-prev" id="modalPrev">‹</button>
+        <img class="modal-content" id="modalImage" alt="Gallery Image">
+        <button class="modal-nav modal-next" id="modalNext">›</button>
+        <button class="modal-delete" id="modalDelete">🗑️ Delete</button>
+    </div>
+
+    <!-- ========== NEW: Reading Modal ========== -->
+    <div class="reading-modal" id="readingModal">
+        <span class="modal-close" id="readingModalClose">&times;</span>
+        <div class="reading-modal-content">
+            <h2>My Favorite Authors</h2>
+            <p class="reading-subtitle">Writers who have shaped my perspective</p>
+            <div class="authors-grid" id="authorsGrid">
+                <!-- Authors will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== MODIFIED: Music Modal (kept existing, separate from reading) ========== -->
+    <div class="music-modal" id="musicModal">
+        <span class="modal-close" id="musicModalClose">&times;</span>
+        <div class="music-modal-content">
+            <h2>My Music Collection</h2>
+            <p class="music-subtitle">Click on any album to listen on Spotify</p>
+            <div class="albums-grid" id="albumsGrid">
+                <!-- Albums will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Modal -->
+    <div class="certificate-modal" id="certificateModal">
+        <span class="modal-close" id="certificateModalClose">&times;</span>
+        <button class="modal-nav modal-prev" id="certificatePrev">‹</button>
+        <img class="modal-content" id="certificateImage" alt="Certificate">
+        <button class="modal-nav modal-next" id="certificateNext">›</button>
+        <button class="modal-delete" id="certificateDelete">🗑️ Delete</button>
+    </div>
+
+    <!-- ========== NEW: New Certificates Modal ========== -->
+    <div class="new-certificate-modal" id="newCertificateModal">
+        <span class="modal-close" id="newCertificateModalClose">&times;</span>
+        <button class="modal-nav modal-prev" id="newCertificatePrev">‹</button>
+        <div class="modal-content-wrapper" id="newCertificateContent">
+            <!-- Content will be dynamically added here -->
+        </div>
+        <button class="modal-nav modal-next" id="newCertificateNext">›</button>
+        <button class="modal-delete" id="newCertificateDelete">🗑️ Delete</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
