@@ -225,11 +225,11 @@ let currentSlideIndex = 0;
 
 // Static images array (your images from HTML)
 const staticImages = [
-    'i/building1.jpg',
-    'i/building2.jpg',
-    'i/car.jpg',
-    'i/fort.jpg',
-    'i/t.jpeg'
+    'building1.jpg',
+    'building2.jpg',
+    'car.jpg',
+    'fort.jpg',
+    't.jpeg'
 ];
 
 // Initialize slideshow on page load
@@ -711,4 +711,5 @@ document.querySelectorAll('.education-item, .hobby-card, .project-card, .certifi
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'all 0.6s ease';
     observer.observe(el);
+
 });
